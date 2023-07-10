@@ -1,0 +1,64 @@
+.header-img{
+    height: 80vh;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: palevioletred;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+
+}
+.header-main{
+    display: flex;
+    justify-content:center;
+    flex-direction: row-reverse;
+    background-color: rgb(254, 223, 228);
+   
+}
+.header-pera{
+    
+    max-width: 280px;
+}
+/* main section editing of feature flower part */
+.feature-flower-contain{
+    justify-content: center;
+    text-align: center;
+}
+.flower-card{
+    height: 200px;
+    width: 180px;
+    /* background-color:blue; */
+    gap: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+#img1{
+    background-color: rgb(241, 208, 241);
+}
+#img2{
+    background-color: rgb(177, 225, 255);
+}
+#img3{
+    background-color:rgb(165, 235, 165);
+}
+.cards{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.flower-img{
+        height: 150px;
+        width: 120px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+}
+
+.flower-unerline-text{
+    display: flex;
+    justify-content: space-around;
+}
