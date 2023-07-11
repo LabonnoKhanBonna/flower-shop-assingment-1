@@ -29,7 +29,8 @@
 }
 .header-main{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    gap: 40px;
     flex-direction: row-reverse;
     background-color: rgba(229, 84, 115, 0.10);
     padding-top: 50px;
@@ -119,7 +120,7 @@ padding-bottom: 30px;
 flower-sale part editing */
 
 .flower-sale-image{
-    height: 150px;
+    height: 120px;
 
 }
 .sale-part{
@@ -160,6 +161,41 @@ font-style: normal;
     margin-left: 70px;
     font-size: 10px;
     
+}
+
+/* extra part editing */
+.extra{
+    margin-top: 0px;
+    background-color: rgb(227, 254, 227);
+}
+.video-text{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+
+}
+.vedio-paragraph{
+    height: 250px;
+    width:300px;
+    padding-top: 50px;
+}
+.box{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color: #ffb9c8;
+    color: white;
+    height: 40px;
+    width: 30%;
+   margin-left:35% ;
+   border-radius: 10px;
+   position: relative;
+   
+}
+.vd{
+    height: 250px;
+    width: 300px;
 }
 
 /* instragram part editing */
