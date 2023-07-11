@@ -2,14 +2,15 @@
     margin: 0px;
 }
 .header-img{
-    height: 80vh;
+   height: 80vh;
+   background-position: bottom;
 }
 .btn{
     height: 30px;
     width: auto;
     color: white;
     font-size: 10px;
-    background-color: palevioletred;
+    background-color: #E55473;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 5%;
@@ -30,7 +31,7 @@
     justify-content:space-around;
     flex-direction: row-reverse;
     background-color: rgba(229, 84, 115, 0.10);
-    padding-top: 30;
+    padding-top: 50px;
 }
 .header-pera{
     color: rgba(39, 39, 39, 0.60);
@@ -129,7 +130,7 @@ font-style: normal;
     color: black;
 
 }
-#red-text{
+.red-text{
     color: palevioletred;
 }
 
@@ -144,11 +145,15 @@ display: flex;
 justify-content: space-between;
 margin-left: 10%;
 margin-right: 10%;
+margin-bottom: 50px;
+margin-top: 30px;
 }
 .instragram-part{
     text-align: center;
+    margin-top: 50px;
+    
 }
-#instra-pera{
+.instra-pera{
     color: rgba(39, 39, 39, 0.60);
     font-family: 'Open Sans', sans-serif;
     font-size: 7px;
@@ -156,4 +161,52 @@ margin-right: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     
+}
+/* last part of the mai section */
+.main-last-part{
+text-align: center;
+background-image: url('Flower Asset/Rectangle\ 9.png');
+background-size: cover;
+background-repeat: no-repeat;
+margin-left: 10%;
+margin-right: 10%;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-bottom: 50px;
+
+}
+.main-last-div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#email{
+  width: 400px;
+   border: none;
+   background-position-x: center;
+}
+#sing-up{
+    width: 60px;
+}
+
+/* footer part editing */
+.footer-part{
+    text-align: center;
+    background-color: #111010;;
+    color: white;
+    padding: 30px;
+}
+.footer-para1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer-para2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    padding-bottom: 20px;
 }
