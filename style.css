@@ -3,7 +3,7 @@
 }
 .header-img{
    height: 80vh;
-   background-position: bottom;
+   bottom: 0;
 }
 .btn{
     height: 30px;
@@ -21,6 +21,7 @@
 
 
 }
+
 .image-part{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -45,8 +46,8 @@ padding-bottom: 30px;
 
 }
 .all-text{
-  padding: 30px;
-  color: rgba(39, 39, 39, 0.60);
+    padding-top: 40px;
+  color: black;
  
  font-size: 18px;
 }
@@ -56,29 +57,29 @@ padding-bottom: 30px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 .flower-card{
     height: 200px;
     width: 180px;
-    /* background-color:blue; */
     gap: 50px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
 }
 #img1{
-    background-color: rgb(241, 208, 241);
+    background-color: rgba(167, 33, 98, 0.15);
 }
 #img2{
-    background-color: rgb(177, 225, 255);
+    background-color: rgba(5, 151, 160, 0.15);
 }
 #img3{
-    background-color:rgb(165, 235, 165);
+    background-color:rgba(71, 125, 17, 0.15);
 }
 .cards{
     margin: 0px 50px;
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
 }
 .flower-img{
         height: 150px;
@@ -91,6 +92,28 @@ padding-bottom: 30px;
 .flower-unerline-text{
     display: flex;
     justify-content: space-around;
+}
+
+/* flower optional part editing */
+.optional-part{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color:rgba(39, 39, 39, 0.05) ;
+    padding: 20px;
+
+}
+.optional-part1{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;  
+    text-align: center; 
+}
+.logo{
+    height: 50px;
 }
 /* 
 flower-sale part editing */
@@ -133,6 +156,11 @@ font-style: normal;
 .red-text{
     color: palevioletred;
 }
+#btn-2{
+    margin-left: 70px;
+    font-size: 10px;
+    
+}
 
 /* instragram part editing */
 .in-img{
@@ -162,6 +190,13 @@ margin-top: 30px;
     padding-bottom: 20px;
     
 }
+.underline-text{
+   text-align: center;
+   color: rgba(39, 39, 39, 0.60);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+
+}
 /* last part of the mai section */
 .main-last-part{
 text-align: center;
@@ -178,15 +213,16 @@ margin-bottom: 50px;
 .main-last-div{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    position:relative;
 }
 #email{
-  width: 400px;
+  width: 300px;
+  position: relative;
    border: none;
-   background-position-x: center;
 }
 #sing-up{
-    width: 60px;
+    width: 50px;
 }
 
 /* footer part editing */
