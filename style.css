@@ -217,9 +217,11 @@ margin-bottom: 50px;
     position:relative;
 }
 #email{
-  width: 300px;
+    width: 100%;
   position: relative;
    border: none;
+   
+
 }
 #sing-up{
     width: 50px;
